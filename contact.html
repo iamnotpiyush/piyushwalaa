@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Teko">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Marvel">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Limelight">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin Sketch">
+<style>
+body {
+  margin: 0;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  font-family:teko;
+  letter-spacing: 2px;
+  
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #C0C0C0;
+  text-align: center;
+  padding: 25px 24px;
+  text-decoration: none;
+  font-size: 20px;
+  float:right;
+
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: black;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+h2{
+color:#C0C0C0;padding-left:200px;
+}
+
+
+.intro{
+    border:0px solid transparent;width:100%;height:700px;background-color:black;color:white
+	}
+	
+.responsive {
+  width: 100%;
+  
+  height: 100%;
+}
+.profilecont{
+border:1px solid transparent;width:55%;height:650px;float:left;padding:0px;font-size:18px;
+}
+.profilepicture{
+    border:1px solid transparent;width:43%;height:450px;float:left;padding:0px;padding-top:30px;background-color:black;
+}
+
+
+@media screen and (max-width: 750px){
+  h2{
+ 	padding-left:20px;
+
+  }
+  .profilepicture{
+  height:400px
+  }
+}
+.introsuction{
+      text-align:left;padding-left:30px;right:10%;padding-top:120px;padding-left:80px;color:#C0C0C0;
+}
+.introsuction2{
+text-align:left;padding-left:30px;right:10%;padding-top:30px;padding-left:80px;color:#C0C0C0;
+}
+#example3 {
+  border: 1px solid;
+  border-radius:0%;
+  padding: 10px;
+  box-shadow: 5px 10px #BF8DB3;
+}
+@media screen and (max-width: 900px) {
+.profilecont{
+width:100%;
+height:500px
+}
+.profilepicture{
+width:100%;
+height:500px
+}
+}
+@media screen and (max-width: 600px) {
+.profilecont{
+width:100%;
+height:300px;
+font-size:12px;
+padding-top:0px
+}
+.introsuction{
+padding-top:60px;
+padding-left:35px
+}
+.introsuction2{
+padding-top:20px;
+padding-left:35px
+}
+.profilepicture{
+width:100%;
+height:500px
+}
+}
+@media screen and (max-width: 450px) {
+.profilecont{
+width:100%;
+height:350px;
+font-size:12px;
+padding-top:0px
+}
+.introsuction{
+padding-top:60px;
+padding-left:20px;
+color:#C0C0C0;
+}
+.introsuction2{
+padding-top:20px;
+padding-left:20px;
+color:#C0C0C0;
+}
+.profilepicture{
+width:100%;
+height:500px
+}
+}
+
+.language{
+border-top:0px solid white ;width:100%;height:500px;background-color:black;color:white;text-align:center;font-size:40px;font-family:teko;	
+}
+
+@media screen and (max-width: 1000px) {
+.language{
+display:none;}
+}
+.about{
+border-bottom:1px solid #C0C0C0;width:70%;height:340px;float:left;margin-top:0px;background-color:black;padding-top:70px
+}
+.aboutmain{
+border:0px solid transparent;width:100%;height:720px;float:left;margin-top:0px;background-color:black;padding-top:70px
+}
+
+.aboutpadding{
+border:1px solid transparent;width:22%;height:340px;float:left;margin-top:0px;background-color:black;padding-top:70px}
+@media screen and (max-width: 800px) {
+.aboutmain{
+height:500px;font-size:10px
+}
+.about{
+height:400px;font-size:10px
+}
+.aboutpadding{
+height:400px;font-size:10px;width:10%
+}
+}
+
+.aboutimg{
+border:0px solid #C0C0C0;width:70%;height:200px;float:left;margin-top:0px;background-color:black;padding-top:70px
+}
+
+@media screen and (max-width: 800px) {
+.aboutimg{
+display:none;}
+}
+.footerdiv{
+border:px solid red;text-align:center;width:100%;height:700px;background-color:black
+}
+.footer{
+color:white;padding-top:130px;font-family:Limelight;font-size:70px; line-height: 60%;}
+.footerspan{
+color:#C0C0C0;padding-top:-10px;font-family:Cabin Sketch;font-size:20px;line-height:10%;}
+.email{
+color:white;font-family:Cabin Sketch;
+}
+.social{
+color:white;font-family:teko; letter-spacing: 5px;
+}
+@media screen and (max-width: 800px) {
+
+.footer{
+font-size:40px
+}
+}
+@media screen and (max-width: 350px) {
+
+.footer{
+font-size:30px;
+line-height: 80%;
+}
+.footerspan{
+font-size:15px;
+line-height: 100%;
+}
+.email{
+font-size:18px;
+}
+.social{font-size:15px;letter-spacing: 2px;
+}
+.footerdiv{
+height:600px;
+}
+}
+.contactmain{
+border:0px solid transparent;width:49%;height:600px;background-color:blackp;color:white;float:left;
+}
+
+.conatctpadding{
+
+font-size:60px;text-align:left;padding-left:200px;padding-top:90px;line-height: 20%
+}
+.stylepadding{
+font-size:16px;line-height:0px;;padding-left:0px;color:#C0C0C0;padding-top:-10px; letter-spacing: 3px
+}
+
+.contactdiv{
+border-bottom:1px solid grey;width:100%;height:610px;background-color:black
+}
+
+.cotactimg{
+border:0px solid transparent;width:49%;height:600px;background-color:black;color:white;float:left;
+}
+@media screen and (max-width: 1200px) {
+
+.conatctpadding{
+padding-left:100px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+
+.conatctpadding{
+padding-left:60px;
+font-size:40px;
+line-height: 40%
+}
+}
+@media screen and (max-width: 800px) {
+.conatctpadding{
+padding-left:60px;}
+.contactmain{
+width:100%;
+height:400px
+
+}
+.cotactimg{
+width:100%;
+height:400px
+}
+.stylepadding{
+letter-spacing: 1px
+}
+}
+
+@media screen and (max-width: 400px) {
+.conatctpadding{
+padding-left:25px;}
+.contactmain{
+width:100%;
+height:400px
+}
+.cotactimg{
+width:100%;
+height:400px
+}
+.contactdiv{
+height:810px;
+}
+.stylepadding{
+letter-spacing: 1px;
+font-size:14px;
+}
+}
+
+
+.formwriteup{
+border:0px solid red;width:100%;float:left;height:150px;color:white;
+}
+
+.formwriteuppadd{
+padding-top:90px;padding-left:300px}
+.formdiv{
+border:0px solid white;width:100%;height:600px;background-color:black
+}
+.formpadd{
+border:0px solid red;width:20%;float:left;height:300px;margin-top:20px;
+}
+.form{
+border-top:1px solid #F0F0F0;width:30%;float:left;height:300px;margin-top:20px
+}
+.formque{
+color:white
+}
+@media screen and (max-width: 800px) {
+.formwriteuppadd{
+padding-left:10px
+}
+.formdiv{
+height:1000px;
+}
+.formpadd{
+width:10%;
+height:600px
+}
+.form{
+width:80%;
+height:250px
+}
+.formque{
+font-size:16px
+}
+}
+</style>
+</head>
+<body >
+
+<div class="topnav" id="myTopnav">
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+
+    <a href="about.html">About</a>
+  <a href="certificate.html">Cetificates</a>
+  <a href="contact.html" class="active">ContactME</a>
+  <a href="index.html" >Home</a>
+  <h2 > Piyush Langde	</h1>
+
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+<div class="contactdiv">
+<div class="contactmain" >
+<h1 class="conatctpadding" >contact.
+<p><span class="stylepadding">Do you speak <span style="color:#F3AA4E">Marathi</span> ? It's ok if you <br><span style="font-size:16px;line-height:0px;;padding-left:0px;">don't, I speak English too.
+<br><br>
+<br>
+<br>
+<i class="fa fa-twitter" style="font-size:40px;"></i>
+ &nbsp;
+<i class="fa fa-linkedin"style="font-size:40px;"></i> &nbsp;
+<i class="fa fa-instagram" style="font-size:40px;"></i> &nbsp;
+<i class="fa fa-facebook" style="font-size:40px;"></i> &nbsp;
+</div>
+<div class="cotactimg">
+<img src="whiletrue.png" width="80%">
+</div>
+
+</div>
+
+<div class="formdiv">
+<div class="formwriteup">
+<h1 class="formwriteuppadd">Send me an email</h1>
+</div>
+
+<div class="formpadd" >
+</div>
+<div class="form">
+<h3 class="formque">Name<br><input type="text" style="height:35px;width:65%;background-color:#F0F0F0;margin-top:10px;border-color:white;border:2px solid grey;border-radius:5px">
+
+
+<br>
+<br><h3 class="formque">Email<br><input type="email" style="height:35px;width:65%;background-color:#F0F0F0;margin-top:10px;border-color:white;border:2px solid grey;border-radius:5px">
+
+</div>
+<div class="form" >
+<h3 class="formque">Message<br><input type="text" style="height:155px;width:85%;background-color:#F0F0F0;margin-top:10px;border-color:white;border:2px solid grey;border-radius:5px">
+<br>
+<br>
+<input type="submit"  style="float:right;height:40px;width:120px">
+</div>
+</div>
+
+
+
+</body>
+</html>
